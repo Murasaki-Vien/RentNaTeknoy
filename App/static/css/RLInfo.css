@@ -1,0 +1,695 @@
+
+body {
+    margin-top: 40px;
+    min-height: 100%;
+    background: #ebecf2;
+}
+.userProfileInfo .image {
+    position: relative
+}
+
+.userProfileInfo .image .editImage {
+    position: absolute;
+    bottom: -27px;
+    right: 20px;
+    background: #fe5621;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-size: 1.8rem;
+    width: 54px;
+    height: 54px;
+    line-height: 54px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.userProfileInfo .image .editImage:hover {
+    background: #fe693a
+}
+
+.userProfileInfo .box {
+    padding: 0
+}
+
+.userProfileInfo .box .info,
+.userProfileInfo .box .name,
+.userProfileInfo .box .socialIcons {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e6e7ed
+}
+
+.userProfileInfo .box .socialIcons {
+    border: 0
+}
+
+.userProfileInfo .box .info>span {
+    margin: 10px 0;
+    display: block;
+    padding: 0 0 0 35px;
+    position: relative
+}
+
+.userProfileInfo .box .info>span .fa {
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    color: #9da2a6
+}
+
+.boxHeadline {
+    margin: 0 0 25px 0;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+
+.boxHeadline+.boxHeadlineSub {
+    margin: -18px 0 30px 0
+}
+
+.boxHeader .boxTitle {
+    margin: 22px 0 20px 30px
+}
+
+.boxHeader .boxHeaderOptions {
+    margin: 9px 12px 0 0
+}
+
+.boxHeader .boxHeaderOptions .btn {
+    color: #9da2a6;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 24px;
+    font-size: 2.4rem
+}
+
+.boxHeader .boxHeaderOptions .btn:active,
+.boxHeader .boxHeaderOptions .btn:focus,
+.boxHeader .boxHeaderOptions .btn:hover {
+    background: #f2f9ff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.boxHeader.pageBoxHeader .boxHeaderOptions {
+    margin: 20px 12px 0 0
+}
+
+.boxHeader.boxHeaderBorders {
+    border-bottom: 1px solid #e6e7ed
+}
+
+.boxHeader.box {
+    padding: 30px
+}
+
+.boxHeader.box .pageTitle {
+    margin: 0 0 6px 0
+}
+
+.boxHeader.box .pageTitle+.breadcrumb {
+    margin: 0
+}
+
+.boxTitle {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 25px 0
+}
+
+.boxHeadlineSub {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: italic;
+    color: #919599;
+    margin: 0 0 25px 0;
+    line-height: 18px
+}
+
+.boxHeadlineSub a {
+    color: #fe5621
+}
+
+.bgTitle {
+    background: url(../../img/bg-sharpen.jpg) no-repeat;
+    background-size: 100% 100%
+}
+
+.bgTitle .boxTitle {
+    margin: 50;
+    padding: 22px 30px;
+    color: #fff
+}
+
+.box {
+    background: #fff;
+    padding: 30px;
+    margin: 0 0 24px 0
+}
+
+.box.box-without-padding {
+    padding: 0
+}
+
+.box.box-without-sidepadding {
+    padding: 8px 0
+}
+
+.box.box-without-sidepadding .boxTitle {
+    margin-left: 30px
+}
+
+.box.box-without-bottom-padding {
+    padding-bottom: 0
+}
+
+.box .tableWrap {
+    margin: 0 -30px
+}
+
+.box .table-responsive {
+    width: auto
+}
+
+.box .panel-group:last-of-type {
+    margin-bottom: 0
+}
+
+
+.simpleListings {
+    padding: 0;
+    margin: 0
+}
+
+.simpleListings li {
+    list-style-type: none;
+    padding: 0 0 20px 0;
+    margin: 20px 0 0 0;
+    border-bottom: 1px solid #e6e7ed;
+    position: relative
+}
+
+.simpleListings li:first-child {
+    margin-top: 0
+}
+
+.simpleListings li:only-child {
+    border-bottom: 0
+}
+
+.simpleListings li .title {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 2px 0
+}
+
+.simpleListings li .title span {
+    font-weight: 400;
+    text-transform: none
+}
+
+.simpleListings li .title a:hover {
+    color: #fe5621
+}
+
+.simpleListings li .info {
+    color: #919599;
+    font-style: italic
+}
+
+.simpleListings li p {
+    margin: 7px 0 0 0
+}
+
+.simpleListings li img {
+    margin: 20px 0
+}
+
+.userActivities {
+    margin-bottom: 25px
+}
+
+.userActivities+.showMore {
+    margin: 0 0 0 70px
+}
+
+.userActivities .i {
+    margin-top: 25px;
+    position: relative
+}
+
+.userActivities .i:first-child {
+    margin-top: 0
+}
+
+.userActivities .i .image {
+    position: absolute;
+    top: 20px;
+    left: 0
+}
+
+.userActivities .i .activityContent {
+    margin: 0 0 0 70px;
+    border: 1px solid #e6e7ed;
+    min-height: 70px
+}
+
+.userActivities .i .activityContent:after,
+.userActivities .i .activityContent:before {
+    content: '';
+    left: 48px;
+    top: 40px;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.userActivities .i .activityContent:after {
+    border-right-color: #fff;
+    border-width: 12px;
+    margin-top: -12px
+}
+
+.userActivities .i .activityContent:before {
+    border-right-color: #dcdcdc;
+    border-width: 11px;
+    margin-top: -11px
+}
+
+.userActivities ul {
+    padding: 20px 25px
+}
+
+.userActivities ul li .title {
+    font-size: 16px;
+    font-size: 1.6rem;
+    text-transform: none
+}
+
+.userActivities .status li {
+    padding-bottom: 0
+}
+
+.userActivities .status li .share {
+    margin: 20px 0 0 0
+}
+
+.userActivities .status li .share a {
+    color: #fe5621;
+    display: inline-block;
+    margin: 0 0 0 20px
+}
+
+.userActivities .status li .share a:first-child {
+    margin: 0
+}
+
+.userActivities .status li .share a .fa {
+    color: #9da2a6;
+    margin: 0 3px 0 0;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -ms-transition: color .3s ease;
+    -o-transition: color .3s ease
+}
+
+.userActivities .status li .share a:hover .fa {
+    color: #fe5621
+}
+
+.userActivities .comments {
+    background: #f5f6fa;
+    border-top: 1px solid #e6e7ed
+}
+
+.userActivities .comments li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0
+}
+
+.userActivities .comments li .image {
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.userActivities .comments li .image img {
+    margin: 0
+}
+
+.userActivities .comments li .c {
+    margin: 0 0 0 70px
+}
+
+.userActivities .comments li .c .form-control {
+    border-left: 1px solid #e6e7ed;
+    padding: 10px 18px;
+    margin: 0 0 10px 0
+}
+
+.userActivities .comments li .c .form-control:focus {
+    border-color: #e6e7ed
+}
+
+.userActivities .comments li.showComments {
+    border-bottom: 0;
+    padding: 0;
+    margin: 0 0 15px 0
+}
+
+.userActivities .comments li.showComments .fa {
+    color: #9da2a6;
+    margin: 0 3px 0 0
+}
+
+.userActivities .comments li.showComments a:hover {
+    color: #fe5621
+}
+
+@media (min-width: 992px) {
+    .userProfileInfo .image img {
+        width: 100%;
+    }
+}
+
+/* REVIEWS   */
+
+body{
+    background:#dcdcdc;    
+    }
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+    .rating-list-center {
+        width: 80%;
+    }
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    .offer-dedicated-nav .nav-link.active,
+    .offer-dedicated-nav .nav-link:hover,
+    .offer-dedicated-nav .nav-link:focus {
+        border-color: #3868fb;
+        color: #3868fb;
+    }
+    .offer-dedicated-nav .nav-link {
+        border-bottom: 2px solid #fff;
+        color: #000000;
+        padding: 16px 0;
+        font-weight: 600;
+    }
+    .offer-dedicated-nav .nav-item {
+        margin: 0 37px 0 0;
+    }
+    .restaurant-detailed-action-btn {
+        margin-top: 12px;
+    }
+    .restaurant-detailed-header-right .btn-success {
+        border-radius: 3px;
+        height: 45px;
+        margin: -18px 0 18px;
+        min-width: 130px;
+        padding: 7px;
+    }
+
+    .text-black {
+        color: #000000;
+    }
+    .icon-overlap {
+        bottom: -23px;
+        font-size: 74px;
+        opacity: 0.23;
+        position: absolute;
+        right: -32px;
+    }
+    .menu-list img {
+        width: 41px;
+        height: 41px;
+        object-fit: cover;
+    }
+    .restaurant-detailed-header-left img {
+        width: 88px;
+        height: 88px;
+        border-radius: 3px;
+        object-fit: cover;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+    }
+    .reviews-members .media .mr-3 {
+        width: 56px;
+        height: 56px;
+        object-fit: cover;
+    }
+    .rounded-pill {
+        border-radius: 50rem!important;
+    }
+    .total-like-user {
+        border: 2px solid #fff;
+        height: 34px;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+        width: 34px;
+    }
+    .total-like-user-main a {
+        display: inline-block;
+        margin: 0 -17px 0 0;
+    }
+    .total-like {
+        border: 1px solid;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 500;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 13px;
+        vertical-align: top;
+    }
+    .restaurant-detailed-ratings-and-reviews hr {
+        margin: 0 -24px;
+    }
+    .graph-star-rating-header .star-rating {
+        font-size: 17px;
+    }
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+    .rating-list {
+        display: inline-flex;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .rating-list-left {
+        height: 16px;
+        line-height: 29px;
+        width: 10%;
+    }
+    .rating-list-center {
+        width: 80%;
+    }
+    .rating-list-right {
+        line-height: 29px;
+        text-align: right;
+        width: 10%;
+    }
+    .restaurant-slider-pics {
+        bottom: 0;
+        font-size: 12px;
+        left: 0;
+        z-index: 999;
+        padding: 0 10px;
+    }
+    .restaurant-slider-view-all {
+        bottom: 15px;
+        right: 15px;
+        z-index: 999;
+    }
+    
+    .progress {
+        background: #f2f4f8 none repeat scroll 0 0;
+        border-radius: 0;
+        height: 30px;
+    }
+
+    .review-list ul li .right h4 .gig-rating {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        color: #ffbf00;
+   }
+    .review-list ul li .right h4 .gig-rating svg {
+        margin: 0 4px 0 0px;
+   }
+
+/* BOOTSTRAP FOOTER */
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#EDE6D3;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:fixed;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+  /*
+  body::before {
+    display: block;
+    content: '';
+    height: 60px;
+  }
+  
+  #map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .news-input {
+      width: 50%;
+    }
+  }

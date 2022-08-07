@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    display: grid;
+    background-color: #EFEBE4;
+    align-content: center;
+    min-height: 100vh;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 70vh;
+    width: 75vw;
+    margin: 0 auto;
+    color: #930303;
+    border-radius: 12px
+}
+.image{
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 12px 0 0 12px;
+}
+.image img{
+height:50vh;
+margin:50px auto
+}
+.content{
+    background-color: #930303;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0  12px 12px 0;
+    color: #fff;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    opacity: 0.9;
+}
+.content span{
+    height: 0.5px;
+    width: 80px;
+    background: #777;
+    margin: 30px 0;
+}
+.content p{
+    padding-bottom: 15px;
+    font-weight: 300;
+    opacity: 0.7;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.7;
+    color:#ffffff
+}
+.links{
+    margin: 15px 0;
+}
+.links li{
+    border: 2px solid #4158D0;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 160px;
+    text-align: center;
+}
+.links li a{
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.links li:hover{
+    border-color: #C850C0;
+}
+
+.vertical-line{
+    height: 30px;
+    width: 3px;
+    background: #C850C0;
+    margin: 0 auto;
+}
+.icons{
+    display: flex;
+    padding: 15px 0;
+}
+.icons li{
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+.icons li i{
+    font-size: 26px;
+    opacity: 0.8;
+}
+.icons li i:hover{
+    color: #C850C0;
+    cursor: pointer;
+}
+
+
+/*****************/
+
+@media(max-width: 900px){
+    section{
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+    }
+    .image{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content{
+        height: 100vh;
+        border-radius: none;
+    }
+    .content h2{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .content span{
+        margin: 20px 0;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .links li a{
+        font-size: 14px;
+    }
+    .links{
+        margin: 5px 0;
+    }
+    .links li{
+        padding: 6px 10px;
+    }
+    .icons li i{
+        font-size: 15px;
+    }
+}
+.credit{
+    text-align: center;
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .credit a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+  } 
+
+/*MEET THE TEAM*/
+#team {
+    padding: 0 0;
+    text-align: center;
+    background-color: #6f85ff;
+    background-attachment:inherit;
+    color: #fff;
+   
+}
+#team h2 {
+    position: relative;
+    padding: 0px 0px 15px;
+}
+#team p {
+    font-size: 15px;
+    font-style: italic;
+    padding: 0px;
+    margin: 25px 0px 40px;
+}
+#team h2::after {
+    content: '';
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 90px;
+    margin: 0 auto;
+    display: block;
+}
+#team .member {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.4);
+}
+#team .member .member-info {
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: -200px;
+    transition: 0.4s;
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+#team .member:hover .member-info {
+    left: 0px;
+    right: 0px;
+}
+#team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+#team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+}
+#team .member .social-links {
+    margin-top: 15px;
+}
+#team .member .social-links a {
+    transition: none;
+    color: #fff;
+}
+#team .member .social-links a:hover {
+    color: #ffc107;
+}
+#team .member .social-links i {
+    font-size: 18px;
+    margin: 0 2px;
+}
